@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');	body {
+		background-color: #3498db;
+		background-image: url('../img/background.png');
+		font-family: 'Roboto Condensed', sans-serif;
+		color: #FFF;
+		text-align: center;
+		font-size: 1vw;
+	}
+	.content {
+		position: relative;
+		background-color: #FFF;
+		width: 50%;
+		border: 0px;
+		border-radius: 8px;
+		margin-left: auto;
+		margin-right: auto;
+		min-height: 200px;
+		color: #34495e;
+		font-family: 'Roboto Condensed', sans-serif;
+		padding-top: 50px;
+		text-align: center;
+		font-size: 2vw;
+		z-index: 2;
+	}
+	.output {
+		margin-bottom: 50px;
+		border: 0px;
+		margin-top: 50px;
+		width: 70%;
+		height: 200px;
+	}
+	.logo {
+		background-image: url('../img/logo.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center bottom;
+		width: 500px;
+		height: 200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	form {
+		font-size: 0;
+		z-index: 2;
+		margin-top: 40px;
+	}	
+	form input {
+		font-size: 12px;
+	}
+	.formword {
+		width: 200px;
+		border: 0px;
+		height: 30px;
+		background-color: #3498db;
+		border-bottom-left-radius: 8px;
+		border-top-left-radius: 8px;
+		color: #ecf0f1;
+		border-left: 1px solid #34495e;
+		border-bottom: 1px solid #34495e;
+		border-top: 1px solid #34495e;
+		font-size: 25px;
+		text-align: center;
+		margin-right: 0px;
+	}
+	.form {
+		margin-left: 0px;
+		height: 34px;
+		border: 1px solid #34495e;
+		border-bottom-right-radius: 8px;
+		border-top-right-radius: 8px;
+		font-family: 'Roboto Condensed', sans-serif;
+		color: #34495e;
+		font-size: 25px;
+		background-color: #ecf0f1;	
+		opacity: 1;
+	}	.form:hover {
+		opacity: 0.8;
+	}	.form:active {
+		opacity: 1;
+		background-color: #C2C6C6;
+	}
